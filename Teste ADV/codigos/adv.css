@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    border-radius: 10px;
+    width: 1000px;
+    padding: 10px;
+    margin: auto;
+}
+
+body {
+    background-image:linear-gradient(to right, #734002, #BF7E04)
+}
+
+h1 {
+    background-color: white;
+    font-size: 3em;
+    padding: 5%;
+    text-align: center;
+    
+}
+
+h2 {
+    background-color: white;
+    width: 170px;
+    padding: 5px;
+}
+
+.centrais {
+    margin: auto;
+}
+
+.cima {
+    position: 1000px;
+}
+
+p {
+    text-align: justify;
+    background-color: white;
+    padding: 5px;
+}
+
+#maiorzin {
+    width: 190px;
+}
+
+#fotoK {
+    margin-right: 50;
+}

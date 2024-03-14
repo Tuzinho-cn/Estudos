@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JP Barber</title>
+    <link rel="stylesheet" href="jpstyle.css">
+</head>
+<body>
+    <main>
+        <header>
+            <h1>Agende seu Horário</h1>
+        </header>
+        <section>
+            <div id="per">
+                <p>Digite seu nome: <input type="text" name="txtnome" id="txtnome"></p>
+                <p>Digite seu número de telefone: <input type="number" name="txtnmrt" id="txtnmrt"></p>
+                <p>Quando deseja agendar seu corte? <br> <br>
+                Dia: <input type="number" name="txtdia" id="txtdia" max="31" min="1" style="width: 30px;">
+                Mês: <input type="number" name="txtmes" id="txtmes" max="12" min="1" style="width: 30px;">
+                Ano: <input type="number" name="txtano" id="txtano" style="width: 30px;"> <br> <br>
+                Hora: <input type="time" name="txthora" id="txthora"></p>
+                <p><input type="button" value="Finalizar" onclick="finalizar()"></p>
+            </div>
+            <div id="res">
+
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; Tuzinho_cn</p>
+    </footer>
+    <script src="agendar.js"></script>
+</body>
+</html>
