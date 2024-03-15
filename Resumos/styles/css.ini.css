@@ -1,0 +1,90 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+:root {
+    --cor01: #BF7885;
+    --cor02: #F2B90F;
+    --cor03: #D9910D;
+    --cor04: #D99C52;
+    --cor05: #F27E63;
+}
+
+body {
+    background-color: var(--cor04);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    background-color: var(--cor01);
+}
+
+header > h1 {
+    text-align: center;
+    padding: 10px;
+}
+
+header > p {
+    font-size: 12px;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+main {
+    background-color: var(--cor05);
+    min-width: 320px;
+    max-width: 800px;
+    padding: 10px;
+    padding-bottom: 50px;
+    margin: auto;
+}
+
+main > h1 {
+    font-size: 25px;
+    padding-bottom: 50px;
+}
+
+section.materias {
+    width: 500px;
+    margin: auto;
+}
+
+section.materias > a {
+    background-color: #BF7885;
+    width: 60px;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+}
+
+section.materias > a:hover {
+    background-color: #cc6c7d;
+    text-decoration: underline;
+}
+
+section.outlin {
+    width: 500px;
+    margin: auto;
+}
+
+section.outlin > a {
+    background-color: #BF7885;
+    width: 60px;
+    padding: 30px;
+    text-decoration: none;
+    color: black;
+    margin: 0px;
+}
+
+section.outlin > a:hover {
+    background-color: #cc6c7d;
+    text-decoration: underline;
+}
+
+section.outlin {
+    padding-top: 70px;
+}

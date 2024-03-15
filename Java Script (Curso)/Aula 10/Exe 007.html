@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Somando números</title>
+    <style>
+        
+        div#titulo {
+            font: 10px;
+            background: powderblue;
+            color: green;
+            width: 200px;
+            height: 200px;
+            line-height: 200px;
+            text-align: center;
+        }
+
+        body {
+            font: normal 18pt Arial;
+        }
+        input {
+            font: normal 18pt Arial;
+            width: 200px;
+        }
+        div#res {
+            margin-top: 20px;
+        }
+        input#but {
+            background-color: palegoldenrod;
+        }
+        input#txtn1 {
+            background-color: palegoldenrod;
+        }
+        input#txtn2 {
+            background-color: palegoldenrod;
+        }
+    </style>
+</head>
+<body>
+    <div id="titulo"><h1>Somando Valores</h1></div>
+    <input type="number" name="txtn1" id="txtn1"> +
+    <input type="number" name="txtn2" id="txtn2">
+    <input type="button" value="Somar" onclick="somar()" id ="but">
+    <div id="res">Resultado</div>
+    <script>
+        var bts = document.getElementById('but')
+
+        bts.addEventListener('mouseenter', entrar)
+        bts.addEventListener('mouseout', sair)
+
+        function entrar() {
+            bts.style.background = 'pink'
+        }
+
+        function sair() {
+            bts.style.background = 'palegoldenrod'
+        }
+
+        var btn1 = document.getElementById('txtn1')
+        var btn2 = document.getElementById('txtn2')
+
+        btn1.addEventListener('mouseenter', entrar1)
+        btn1.addEventListener('mouseout', sair1)
+
+        btn2.addEventListener('mouseenter', entrar2)
+        btn2.addEventListener('mouseout', sair2)
+
+        function entrar1() {
+            btn1.style.background = 'pink'
+        }
+
+        function sair1() {
+            btn1.style.background = 'palegoldenrod'
+        }
+
+        function entrar2() {
+            btn2.style.background = 'pink'
+        }
+
+        function sair2() {
+            btn2.style.background = 'palegoldenrod'
+        }
+
+
+        function somar() {
+            var tn1 = document.getElementById('txtn1')
+            var tn2 = document.querySelector('input#txtn2')
+            var res = document.getElementById('res')
+            var n1 = Number(tn1.value)
+            var n2 = Number(tn2.value)
+            var s = n1 + n2
+            res.innerHTML = `A soma entre ${n1} e ${n2}, é <strong>${s}</strong>`
+        }
+    </script>
+</body>
+</html>

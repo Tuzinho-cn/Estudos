@@ -1,0 +1,3 @@
+function pular() {
+    img1
+}
