@@ -5,28 +5,34 @@
     margin: 0px;
     padding: 0px;
     text-decoration: none;
-    color: black
+    color: black;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
 }
 
 body {
-    
+    background-color: #F0B100;
 }
 
 header {
-    background-color: #F57600;
+    background-color: #FAD000;
     padding: 30px;
-    padding-bottom: 6px;
     text-align: center;
+    border-bottom: 5px solid #B83400;
+    margin-bottom: 20px;
 }
 
 header > h1, p, a {
     font-weight: bolder;
-    color: #2B7284 ;
+    color: #B83400 ;
 }
 
 header > h1 {
     font-variant: small-caps;
-    padding-bottom: 5px;
+    padding: 5px;
 }
 
 header > p {
@@ -48,7 +54,25 @@ header > a:hover {
 
 section {
     background-color: #B83400;
-    height: 300px;
-    width: 400px;
-    margin:auto
+    height: 80vh;
+    width: 70vw;
+    margin:auto;
+    border-radius: 10px;
+}
+
+h2 {
+    padding: 10px;
+    text-align: center;
+    color: #FAD000;
+    text-decoration: underline;
+    font-size: 40px; 
+    }
+
+article.imagem {
+    background-color: aliceblue;
+    max-width: 500px;
+    height: 10vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
