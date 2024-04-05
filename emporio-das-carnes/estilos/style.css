@@ -38,6 +38,8 @@ section {
     width: 70vw;
     margin:auto;
     border-radius: 10px;
+    border: 2px solid #FAD000;
+    box-shadow: -4px 4px 20px;
 }
 
 h2 {
@@ -48,14 +50,20 @@ h2 {
     font-size: 40px; 
     }
 
-p.imagens {
+article.imagens {
+    display: block;
     padding-bottom: 20px;
+    width: 330px;
+    margin-left: 55px;
     }
 
 img.ofertas {
-    margin-left: 70px;
-    border: 2px solid black;
+    display: block;
+    width: 70%;
+    margin: auto;
+    border: 2px solid #FAD000;
     border-radius: 5px;
+    box-shadow: -4px 4px 20px;
 }
 
 img.ofertas:hover {
@@ -67,4 +75,32 @@ a.linkimagem:hover {
     opacity: 70%;
     animation: 200s;
     transition: opacity 0.3s;
+}
+
+
+
+
+footer {
+    font-weight: bold;
+    background-color: #FAD000;
+    margin-top: 50px;
+    padding: 5px;
+    text-align: center;
+    border-top: 2px solid #B83400;
+}
+
+footer > p {
+    color: #B83400;
+}
+
+a.rodape:visited {
+    color: #B83400;
+}
+
+a.rodape {
+    text-decoration: underline;
+}
+
+a.rodape:active {
+    color: #6d1f00;
 }
