@@ -36,39 +36,44 @@ section {
     background-color: #B83400;
     padding-bottom: 10px;
     width: 70vw;
-    margin:auto;
+    margin: auto;
     border-radius: 10px;
     border: 2px solid #FAD000;
     box-shadow: -4px 4px 20px;
+    text-align: center;
 }
 
 h2 {
-    padding: 20px;
+    padding: 30px;
     text-align: center;
     color: #FAD000;
     text-decoration: underline;
     font-size: 40px; 
     }
 
-article.imagens {
-    display: block;
+section > img {
     padding-bottom: 20px;
     width: 330px;
-    margin-left: 55px;
+
     }
 
 img.ofertas {
-    display: block;
-    width: 70%;
-    margin: auto;
     border: 2px solid #FAD000;
     border-radius: 5px;
     box-shadow: -4px 4px 20px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
 }
 
 img.ofertas:hover {
     zoom: 101%;
     transition: zoom 0.3;
+
+}
+
+a.linkimagem {
+    display: inline-block;
 }
 
 a.linkimagem:hover {
@@ -76,9 +81,6 @@ a.linkimagem:hover {
     animation: 200s;
     transition: opacity 0.3s;
 }
-
-
-
 
 footer {
     font-weight: bold;
@@ -101,6 +103,6 @@ a.rodape {
     text-decoration: underline;
 }
 
-a.rodape:active {
+a.rodape:hover {
     color: #6d1f00;
 }
