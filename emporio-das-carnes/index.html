@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="shortcut icon" href="imagens/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <title>Empório Das Carnes</title>
@@ -11,6 +12,14 @@
 <body>
     <header>
         <h1>EMPÓRIO DAS CARNES</h1>
+        <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+        <menu id="itens">
+            <ul>
+                <li><a href="codigos/contato.html" class="pag">Contato</a></li>
+                <li><a href="codigos/menu.html" class="pag">Menu</a></li>
+                <li><a href="codigos/sobre.html" id="ultimo" class="pag">Sobre</a></li>
+            </ul>
+        </menu>
     </header>
     <section>
         <h2>OFERTAS!</h2>
@@ -28,8 +37,9 @@
                 </a>
             </article>
     </section>
+    <script src="codigos/script.js"></script>
 </body>
 <footer>
-    <p>Site desenvolvido por <a href="" class="rodape">Arthur Correia</a></p>
+    <p>Site desenvolvido por <a href="https://wa.me/5538984350114/?text=Olá! Visitei um de seus sites e gostei muito!" class="rodape" target="_blank">Arthur Correia</a></p>
 </footer>
 </html>

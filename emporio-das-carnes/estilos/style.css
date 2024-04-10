@@ -18,18 +18,62 @@ body {
 }
 
 header {
+    position: sticky;
+    top: 0;
     background-color: #FAD000;
-    padding: 30px;
-    text-align: center;
+    text-align: left;
     border-bottom: 5px solid #B83400;
-    margin-bottom: 20px;
 }
 
 header > h1 {
+    display: inline-block;
     font-weight: bolder;
     color: #B83400 ;
     font-variant: small-caps;
-    padding: 5px;
+    padding: 15px;
+}
+
+i#burguer {
+    position: absolute;
+    right: 10px;
+    top: 20px;
+    color: #B83400;
+}
+
+i#burguer:hover {
+    color: #6d1f00;
+    cursor: pointer;
+}
+
+ul {
+    list-style-type: none;
+}
+
+menu {
+    display: none;
+}
+
+menu ul {
+    list-style-type: none;
+}
+
+a.pag {
+    display: block;
+    padding: 10px;
+    margin-bottom: 2px;
+    text-decoration: none;
+    background-color: #B83400;
+    color: #FAD000;
+    text-align: center;
+}
+
+a#ultimo {
+    margin-bottom: 0px;
+}
+
+a.pag:hover {
+    background-color: #6d1f00;
+    color: #F0B100;
 }
 
 section {
@@ -37,6 +81,7 @@ section {
     padding-bottom: 10px;
     width: 70vw;
     margin: auto;
+    margin-top: 20px;
     border-radius: 10px;
     border: 2px solid #FAD000;
     box-shadow: -4px 4px 20px;
@@ -48,7 +93,8 @@ h2 {
     text-align: center;
     color: #FAD000;
     text-decoration: underline;
-    font-size: 40px; 
+    font-size: 40px;
+    text-shadow: -2px 2px 2px #6d1f00; 
     }
 
 section > img {
@@ -67,17 +113,13 @@ img.ofertas {
 }
 
 img.ofertas:hover {
+    border: 2px solid #faa200;
     zoom: 101%;
     transition: zoom 0.3;
-
-}
-
-a.linkimagem {
-    display: inline-block;
 }
 
 a.linkimagem:hover {
-    opacity: 70%;
+
     animation: 200s;
     transition: opacity 0.3s;
 }
@@ -89,13 +131,14 @@ footer {
     padding: 5px;
     text-align: center;
     border-top: 2px solid #B83400;
+
 }
 
 footer > p {
     color: #B83400;
 }
 
-a.rodape:visited {
+a.rodape {
     color: #B83400;
 }
 
