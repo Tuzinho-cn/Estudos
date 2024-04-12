@@ -107,9 +107,7 @@ img.ofertas {
     border: 2px solid #FAD000;
     border-radius: 5px;
     box-shadow: -4px 4px 20px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin: 20px;
 }
 
 img.ofertas:hover {
