@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="shortcut icon" href="../imagens/favicon.ico" type="image/x-icon">
+   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+   <link rel="stylesheet" href="../estilos/style.css">
+   <link rel="stylesheet" href="../estilos/style-login.css">
+   <title>Menu</title>
+</head>
+<body>
+   <header>
+      <h1>TELA DE LOGIN</h1>
+      <i id="burguer" class="material-icons" onclick="clickMenu()">menu</i>
+      <menu id="itens">
+         <ul>
+            <li>
+               <a href="../index.html" class="pag">Início</a>
+            </li>
+            <li>
+               <a href="contato.html" class="pag">Contato</a>
+            </li>
+            <li>
+               <a href="sobre.html" id="ultimo" class="pag">Sobre</a>
+            </li>
+        </ul>
+      </menu>
+   </header>
+   <section>
+      <h2>LOGIN!</h2>
+      <form action="admin.html" method="post" autocomplete="off">
+         <p>
+            <label for="itxtn" >Usuário:</label> <input type="text" name="txtn" id="itxtn" required minlength="5" maxlength="15" size="15" placeholder="Insira seu nome aqui">
+         </p>
+         <br>
+         <p>
+            <label for="itxtpass">Senha:</label>
+            <input type="password" name="txtpass" id="itxtpass" required minlength="8" maxlength="16" size="15" placeholder="Mínimo de 8 dígitos">
+         </p>
+         <br>
+         <p id="buttons">
+            <input type="submit" value="Enviar" onclick="enviar()">
+            <input type="reset" value="Limpar">
+         </p>
+      </form>
+   </section>
+   <script src="script.js"></script>
+</body>
+</html>

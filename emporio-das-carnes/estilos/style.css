@@ -22,6 +22,7 @@ header {
     top: 0;
     background-color: #FAD000;
     text-align: left;
+    text-shadow: -2px 2px #F0B100 ;
     border-bottom: 5px solid #B83400;
 }
 
@@ -47,6 +48,7 @@ i#burguer:hover {
 
 ul {
     list-style-type: none;
+    text-shadow: none;
 }
 
 menu {
