@@ -147,3 +147,9 @@ a.rodape {
 a.rodape:hover {
     color: #6d1f00;
 }
+
+@media screen and (min-width: 1179px) {
+    section {
+        width: 800px;
+    }
+}
