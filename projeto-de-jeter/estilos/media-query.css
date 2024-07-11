@@ -5,7 +5,10 @@
    color: black;
    margin: 0;
    padding: 0;
-} 
+}
+
+@media screen and (min-width: 768px) {
+   
 
 body {
    height: 100vh;
@@ -15,12 +18,7 @@ body {
 }
 
 header {
-   background-color: rgb(165, 0, 0);
-   padding: 20px;
-   padding-left: 3px;
 
 }
-
-header > h1, header > p{
 
 }
