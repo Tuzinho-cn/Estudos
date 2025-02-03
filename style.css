@@ -1,0 +1,36 @@
+* {
+  color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #00367E;
+}
+
+.container {
+    width: 50%;
+    margin: auto;
+    background: #004AAD;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: black;
+    background-color: #EFB44E;
+}
+
+button:hover {
+    background-color: #DAAA56;
+}
+
+#resultado {
+    font-weight: bold;
+}
+
